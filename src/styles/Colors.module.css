@@ -47,3 +47,136 @@ flex-wrap: wrap;
 align-items: center;
 margin-left: 90px;
 }
+
+.colorDiv {
+    width: 841px;
+    height: 124px;
+    gap: 10px;
+    opacity: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 90px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .colorDiv {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .colorDiv {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        gap: 12px;
+        justify-content: center;
+        padding: 15px 0;
+    }
+    
+    .Colors {
+        height: 50px;
+        gap: 10px;
+        padding-right: 15px;
+        padding-left: 10px;
+    }
+    
+    .color {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .colors p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .colorDiv {
+        width: 100%;
+        margin-left: 0;
+        gap: 8px;
+        padding: 10px;
+        justify-content: space-around;
+    }
+    
+    .Colors {
+        height: 45px;
+        gap: 8px;
+        padding-right: 12px;
+        padding-left: 8px;
+        margin: 2px;
+    }
+    
+    .color {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .colors p {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .colorDiv {
+        gap: 6px;
+    }
+    
+    .Colors {
+        height: 40px;
+        gap: 6px;
+        padding-right: 10px;
+        padding-left: 6px;
+    }
+    
+    .colors p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+}
+
+.Colors {
+    height: 57px;
+    gap: 12px;
+    opacity: 1;
+    padding-right: 20px;
+    padding-left: 12px;
+    border-radius: 200px;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #121212;
+}
+
+.color {
+    width: 33px;
+    height: 33px;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.colors p {
+    height: 24px;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #121212;
+    opacity: 1;
+}

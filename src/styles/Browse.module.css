@@ -51,3 +51,45 @@ text-align: center;
 
 }
 
+@media (max-width: 768px) {
+  .img1 {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+  }
+
+  .heading {
+    width: 100%;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: -2px;
+  }
+
+  .para {
+    width: 100%;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .img1 button {
+    width: 200px;
+    height: 45px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 32px;
+  }
+
+  .para {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .img1 button {
+    width: 180px;
+  }
+}

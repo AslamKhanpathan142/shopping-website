@@ -1,0 +1,86 @@
+.container {
+  padding: 50px 20px;
+  max-width: 1200px;
+  text-align: center;
+  margin-top: 400px;
+margin-left: 20px;
+}
+
+.title {
+ width: 558px;
+height: 130px;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 60px;
+line-height: 65px;
+letter-spacing: -3px;
+color: #121212;
+text-align: left;
+opacity: 1;
+
+}
+
+.cardsWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 32%;
+  min-width: 280px;
+  text-align: left;
+
+opacity: 1;
+
+}
+
+.iconCircle {
+  width: 80px;
+  height: 80px;
+  background: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  color: white;
+  font-size: 30px;
+}
+
+.cardTitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.text {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .cardsWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    text-align: center;
+  }
+
+  .iconCircle {
+    margin: 0 auto 20px auto;
+  }
+
+  .text {
+    text-align: center;
+  }
+}

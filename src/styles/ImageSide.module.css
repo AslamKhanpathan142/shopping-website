@@ -35,3 +35,34 @@ line-height: 40px;
 letter-spacing: -3px;
 
 }
+
+
+@media (max-width: 768px) {
+  .sideImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .sideImage img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .sideImage p {
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: -1px;
+    top: 20px;
+    left: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sideImage p {
+    font-size: 24px;
+    top: 15px;
+    left: 12px;
+  }
+}
+

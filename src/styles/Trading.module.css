@@ -97,3 +97,53 @@ margin-left: 40px;
     align-items: center;
     
 }
+
+@media (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 10px;
+  }
+
+  .bar ul {
+    font-size: 22px;
+    margin-left: 15px;
+  }
+
+  .bar2 ul {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-left: 15px;
+  }
+
+  .bar2 ul li {
+    width: auto;
+    padding: 6px 15px;
+    height: auto;
+    line-height: normal;
+    font-size: 12px;
+  }
+
+  .TradingItems,
+  .TradingItems1 {
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0 10px;
+    gap: 25px;
+  }
+
+  .contant {
+    font-size: 36px;
+    line-height: 40px;
+    margin: 20px 10px;
+  }
+
+  .colorsFlex {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+  }
+}

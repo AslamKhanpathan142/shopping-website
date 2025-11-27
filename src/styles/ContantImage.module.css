@@ -39,3 +39,35 @@ line-height: 40px;
 letter-spacing: -3px;
 
 }
+
+
+@media (max-width: 768px) {
+  .sideImage {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .sideImage img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .sideImage p {
+    top: 20px;      
+    left: 15px;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .sideImage p {
+    font-size: 22px;
+    top: 15px;
+    left: 12px;
+  }
+}

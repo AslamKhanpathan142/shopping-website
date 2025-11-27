@@ -11,6 +11,9 @@ import img5 from '/ContantImage2.png'
 import Browse from "./components/Browse";
 import Trading from "./components/Trading";
 import Customer from "./components/Customer";
+import WhyLove from "./components/WhyLove";
+import BlogSection from "./components/BlogSection";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -46,6 +49,12 @@ const App = () => {
       <Trading />
 
       <Customer />
+
+      <WhyLove />
+
+      <BlogSection />
+
+      <Footer />
     </div>
   );
 };

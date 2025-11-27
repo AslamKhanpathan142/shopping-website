@@ -46,6 +46,32 @@ line-height: 28px;
 letter-spacing: -1px;
 color: #121212;
 
+}
 
+@media (max-width: 768px) {
 
+  .MainDiv {
+    width: 100%;
+    height: auto;
+  }
+
+  .itemDiv {
+    width: 100%;
+    height: auto;
+  }
+
+  .itemDiv img {
+    width: 100%;
+    height: auto;
+  }
+
+  .itemName {
+    font-size: 18px;
+    margin-top: 8px;
+  }
+
+  .itemPrice {
+    font-size: 16px;
+    margin-top: -10px;
+  }
 }

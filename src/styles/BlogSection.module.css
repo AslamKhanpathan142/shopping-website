@@ -1,0 +1,186 @@
+.wrapper {
+  padding: 50px 20px;
+
+  margin-left: 20px;
+}
+
+.heading {
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 30px;
+line-height: 38px;
+letter-spacing: -1px;
+color: #121212;
+
+}
+
+.contentBox {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 654px;
+height: 367px;
+opacity: 1;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.textBox {
+    width: 606px;
+height: 367px;
+gap: 24px;
+opacity: 1;
+}
+
+.title {
+  width: 606px;
+height: 195px;
+opacity: 1;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 60px;
+line-height: 65px;
+letter-spacing: -3px;
+color: #121212;
+margin-top: -14px;
+
+}
+
+.description {
+  width: 566px;
+height: 78px;
+opacity: 0.8;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: -0.3px;
+color: #121212;
+
+}
+
+.button {
+ width: 170px;
+height: 50px;
+font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 1px;
+text-align: center;
+color: #121212;
+
+opacity: 1;
+border-radius: 200px;
+border-width: 1px;
+border: 1px solid #121212;
+}
+
+.button:hover {
+  background: #000;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .contentBox {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .textBox {
+    text-align: center;
+  }
+}
+
+/* Responsive Styles Only */
+@media (max-width: 1200px) {
+  .contentBox {
+    gap: 30px;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .textBox {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contentBox {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .textBox {
+    width: 100%;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .button {
+    width: 150px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .description {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .button {
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+  }
+}

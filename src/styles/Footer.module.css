@@ -1,0 +1,146 @@
+.footer {
+  color: #FFFFFF;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+ background: #121212;
+
+}
+
+.leftBox {
+  max-width: 350px;
+  margin-left: 30px;
+}
+
+.logo {
+  font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0px;
+
+  color: #FFFFFF;
+
+
+}
+
+.text {
+  width: 290px;
+height: 66px;
+opacity: 0.52;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+
+line-height: 22px;
+letter-spacing: 0px;
+
+}
+
+.inputBox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.input {
+  padding: 12px 15px;
+  border-radius: 25px;
+  border: 1px solid #555;
+  background: transparent;
+  color: white;
+  flex: 1;
+  font-size: 14px;
+}
+
+.input::placeholder {
+  color: #aaa;
+}
+
+.button {
+  background: white;
+  color: black;
+  padding: 12px 25px;
+  border-radius: 25px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.rightBox {
+  display: flex;
+  gap: 70px;
+  flex-wrap: wrap;
+   margin-right: 70px;
+}
+
+.columnTitle {
+  width: 59px;
+height: 16px;
+opacity: 1;
+font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 11px;
+line-height: 16px;
+letter-spacing: 1px;
+
+}
+
+.linkItem {
+
+height: 16px;
+opacity: 0.52;
+
+  font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0px;
+color: #FFFFFF;
+
+
+}
+
+
+/* ✔ RESPONSIVE */
+@media (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .leftBox {
+    max-width: 100%;
+  }
+
+  .rightBox {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .column {
+    min-width: 120px;
+    text-align: center;
+  }
+
+  .inputBox {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .button {
+    width: 60%;
+  }
+
+  .input {
+    width: 100%;
+  }
+}
