@@ -1,5 +1,5 @@
 .img1 {
-    width: 958px;
+    /* width: 958px;
 height: 800px;
 opacity: 1;
 background-image: url('./home1.png');
@@ -7,7 +7,21 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 border-radius: 25px;
+margin-left: 40px; */
+margin-top: -445px;
+}
+.img1 img {
+    width: 958px;
+height: 800px;
+border-radius: 25px;
 margin-left: 40px;
+opacity: 1;
+}
+
+.insideText{
+position: relative;
+top: 420px;
+left: 30px;
 }
 
 .heading{
