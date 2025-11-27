@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./components/header";
+import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import HomeImage from "./components/HomeImage";
 import ImageSide from "./components/ImageSide";
