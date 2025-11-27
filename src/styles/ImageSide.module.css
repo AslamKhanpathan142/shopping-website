@@ -1,0 +1,37 @@
+.sideImage {
+   width: 352px;
+height: 380px;
+/* margin-top: -150px; */
+opacity: 1;
+
+
+}
+.sideImage img {
+     width: 400px;
+    height: 380px;
+    border-radius: 20px;
+   
+   
+opacity: 1;
+
+}
+
+.sideImage p {
+
+opacity: 1;
+position: relative;
+top: 160px;
+left: 30px;
+
+    width: 138px;
+height: 80px;
+overflow: visible;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 40px;
+color: #121212;
+line-height: 40px;
+letter-spacing: -3px;
+
+}

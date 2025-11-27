@@ -1,0 +1,15 @@
+
+
+.homePage {
+    display: flex;
+}
+
+.slide {
+    margin-top: -160px;
+    margin-left: 30px;
+}
+.contantImage {
+    display: flex;
+    gap: 10px;
+    margin-left: 40px;
+}

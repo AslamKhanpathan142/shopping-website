@@ -1,0 +1,91 @@
+.mainDiv {
+    width: 1320px;
+height: 556px;
+margin-top: -400px;
+opacity: 1;
+}
+.content {
+position: relative;
+top: 500px;
+left: 110px;
+}
+/* .imgDiv {
+    width: 1320px;
+height: 556px;
+display: flex;
+justify-content: left;
+
+opacity: 1;
+} */
+.imgDiv img {
+   width: 1320px;
+    height: 556px;
+margin-left: 40px;
+padding-right: 40px;
+}
+.para1 {
+    width: 231px;
+height: 38px;
+opacity: 0.5;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 30px;
+line-height: 38px;
+letter-spacing: -1px;
+margin-top: 10px;
+
+}
+
+.para2 {
+    width: 511px;
+height: 130px;
+opacity: 1;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 65px;
+line-height: 65px;
+letter-spacing: -4px;
+color: #FFFFFF;
+margin-top: -20px;
+}
+.para3 {
+    width: 510px;
+height: 104px;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: -0.3px;
+color: #FFFFFF;
+opacity: 0.8;
+margin-top: -40px;
+
+}
+.para4{
+    width: 201px;
+height: 32px;
+opacity: 1;
+font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 24px;
+color: #FFFFFF;
+line-height: 32px;
+letter-spacing: -0.5px;
+margin-top: 40px;
+}
+.para5{
+    width: 125px;
+height: 22px;
+opacity: 0.5;
+width: 125;
+height: 22;
+color: #FFFFFF;
+opacity: 0.5;
+margin-top: -20px;
+
+
+}

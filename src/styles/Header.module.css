@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.bar2 {
+    margin-right: 40px;
+}
+.bar ul{
+    display: flex;
+    gap: 30px;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0px;
+color: #000000;
+list-style: none;
+
+}
+/* .bar ul li {
+    font-size: 18px;
+} */
+.bar2 ul{
+    display: flex;
+    gap: 30px;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    list-style: none;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0px;
+color: #000000;
+}

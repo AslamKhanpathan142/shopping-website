@@ -1,0 +1,51 @@
+.MainDiv {
+    width: 654px;
+height: 450px;
+
+opacity: 1;
+
+
+}
+.itemDiv {
+    width: 654px;
+height: 374px;
+opacity: 1;
+
+
+}
+
+.itemDiv img {
+     width: 710px;
+height: 374px;
+opacity: 1;
+border-radius: 20px;
+}
+.itemName {
+height: 32px;
+opacity: 1;
+font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: -1px;
+color: #121212;
+margin-top: 5px;
+
+} 
+.itemPrice {
+  width: 47px;
+height: 28px;
+margin-top: -20px;
+opacity: 0.8;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -1px;
+color: #121212;
+
+
+
+}

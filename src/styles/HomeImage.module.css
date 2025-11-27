@@ -1,0 +1,56 @@
+.img1 {
+    width: 958px;
+height: 800px;
+opacity: 1;
+background-image: url('./home1.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border-radius: 25px;
+margin-left: 40px;
+}
+
+.heading{
+    width: 328px;
+opacity: 1;
+
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 90px;
+color: #FFFFFF;
+line-height: 75px;
+letter-spacing: -5px;
+margin: 0px 0px 20px 80px;
+padding-top: 80px;
+}
+.para {
+    width: 328px;
+color: #FFFFFF;
+opacity: 0.8;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: -0.3px;
+margin: 0px 0px 20px 80px;
+
+}
+.img1 button {
+    width: 280px;
+height: 50px;
+background: #121212;
+opacity: 1;
+border-radius: 200px;
+font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 1px;
+text-align: center;
+background: #FFFFFF;
+margin: 0px 0px 0px 80px;
+}
+
